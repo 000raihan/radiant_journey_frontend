@@ -181,7 +181,7 @@
 
 .hotel .journey-info .bus-details {
   display: grid;
-  grid-template-columns: 3fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
 }
 .hotel .journey-info .bus-details .bus-name h5 {
   margin: 0;

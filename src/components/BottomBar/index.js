@@ -6,7 +6,7 @@ import { Link, useLocation} from 'react-router-dom';
 const BottomBar = () => {
     const location = useLocation();
     const path = location.pathname;
-    console.log(path)
+    // console.log(path)
   return (
     <div className='bottom_bar'>
         <div className='bottom_items'>
