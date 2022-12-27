@@ -1,0 +1,26 @@
+.bottom_bar{
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    padding: .5rem 1rem;
+    min-height: 20px;
+    width: 100%;
+    margin-left: -1.5rem;
+}
+.bottom_items{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    width: 100%;
+    align-items: center;
+}
+.bottom_items .item{
+    padding:.3rem .8rem;
+    border-radius: 3px ;
+}
+.bottom_items .item img{
+    width: 20px;
+}
+.item_active{
+    background-color: #FDE8E9;
+}

@@ -1,0 +1,241 @@
+.home {
+    /* width: 100%; */
+  padding: 0.8rem;
+  font-family: "Inter", sans-serif;
+}
+.home .header {
+  /* background-color: rgb(225, 124, 0); */
+}
+
+.home .header h1 {
+  margin: 0;
+  color: #6b6e75;
+  font-weight: 400;
+  font-size: 34px;
+}
+.home .header h2 {
+  margin: 0;
+  color: #000000;
+  font-weight: 800;
+  font-size: 25px;
+}
+
+/* --------------journey details----------- */
+
+.journey {
+    /* width: 100%; */
+  margin-top: 4rem;
+  background-color: #ef1c20;
+  color: white;
+  border-radius: 5px;
+  padding: 0.8rem;
+  position: relative;
+}
+
+.journey .bus-image{
+    position: absolute;
+    width: 50%;
+    right: 0;
+    top: -50px;
+}
+
+.journey .info-title {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+.journey .journey-info {
+    margin-top: 2rem;
+}
+.journey .journey-info h4 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+}
+.journey .journey-info .location {
+  display: flex;
+  gap: 0.4rem;
+}
+.journey .journey-info .location i {
+}
+.journey .journey-info .location p {
+    margin: .5rem 0rem;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.journey .journey-info .bus-details {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+}
+.journey .journey-info .bus-details .bus-name h5 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.journey .journey-info .bus-details .bus-name h4 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: 5px;
+}
+.journey .journey-info .bus-details .seat h5 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.journey .journey-info .bus-details .seat h4 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: 5px;
+}
+.journey .journey-info .bus-details .time h5 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.journey .journey-info .bus-details .time h4 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: 5px;
+}
+.journey .journey-info .bus-details .date h5 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.journey .journey-info .bus-details .date h4 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: 5px;
+}
+/* --------------hotel details----------- */
+
+.hotel {
+    /* width: 100%; */
+  margin-top: 1.5rem;
+  background-color: #2B65EC;
+  color: white;
+  border-radius: 5px;
+  padding: 0.8rem;
+  position: relative;
+  min-height: 16rem;
+}
+
+.hotel .hotel-image{
+    position: absolute;
+    width: 70%;
+    right: 0;
+    bottom: 0;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.hotel .info-title {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+.hotel .journey-info {
+    margin-top: 2rem;
+}
+.hotel .journey-info h4 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+}
+.hotel .journey-info .location {
+  display: flex;
+  gap: 0.4rem;
+}
+.hotel .journey-info .location i {
+}
+.hotel .journey-info .location p {
+    margin: .5rem 0rem;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.hotel .journey-info .bus-details {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+}
+.hotel .journey-info .bus-details .bus-name h5 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.hotel .journey-info .bus-details .bus-name h4 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: 5px;
+}
+.hotel .journey-info .bus-details .seat h5 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.hotel .journey-info .bus-details .seat h4 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: 5px;
+}
+.hotel .journey-info .bus-details .time h5 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.hotel .journey-info .bus-details .time h4 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: 5px;
+}
+.hotel .journey-info .bus-details .date h5 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.hotel .journey-info .bus-details .date h4 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: 5px;
+}

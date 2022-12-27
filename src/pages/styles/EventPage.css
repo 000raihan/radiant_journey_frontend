@@ -1,0 +1,96 @@
+.event_page {
+  font-family: "Inter", sans-serif;
+  padding: 0.8rem;
+}
+
+.event_page .page_title {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 30px;
+  margin: 0;
+}
+
+.tab_bar {
+  background-color: #f1f2f2;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+
+.tab_bar .tab_item {
+  border-radius: 4px;
+  padding: 0.5rem 0.7rem;
+  font-size: 12px;
+  font-weight: 600;
+}
+.tab_bar .tab_item:nth-child(1) {
+  background-color: white;
+  border: 1px solid #ef1c20;
+  color: #ef1c20;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* ------event------- */
+.event_section {
+  margin-top: 1rem;
+}
+.event {
+    margin-top: 1rem;
+  width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+.event .event_img {
+  width: 100%;
+}
+.event .body {
+  padding: 0.7rem;
+}
+.event .body .title {
+  display: flex;
+  justify-content: space-between;
+}
+.event .body .title h4 {
+  margin: 0;
+}
+.event .body .title img {
+  width: 30px;
+}
+.event .body .long {
+  margin: 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+}
+.event .body .details {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+.event .body .details p {
+  margin: 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #5b616e;
+}
+
+.event .body .details .date {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+}
+
+.event .body .details .date p {
+  margin: 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #5b616e;
+}
